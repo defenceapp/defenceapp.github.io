@@ -18,7 +18,7 @@ If you continue to use the Service after the revised Terms go into effect, then 
 
 ## Privacy Policy
 
-For information about how we collect and use information about users of the Service, please check out our privacy policy available at [https://defenceblocker.app/privacy].
+For information about how we collect and use information about users of the Service, please check out our privacy policy available at https://defenceblocker.app/privacy.
 
 ## Third-Party Services
 
