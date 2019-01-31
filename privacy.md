@@ -1,4 +1,4 @@
-Privacy Policy
+Defence Privacy Policy
 ==============
 
 Defence built the Defence app. This SERVICE is provided by Defence at no cost and is intended for use as is.
