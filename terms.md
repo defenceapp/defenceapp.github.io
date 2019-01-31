@@ -1,4 +1,4 @@
-# DEFENCE TERMS OF SERVICE
+# Defence Terms of Service
 
 Last Updated: 2019-01-19
 
