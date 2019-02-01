@@ -7,17 +7,33 @@
 <title>Defence</title>
   
   <style>
-  
-  html { 
-    background: url(img/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    .content:before {
+      content: "";
+      position: fixed;
+      left: 0;
+      right: 0;
+      z-index: -1;
+
+      display: block;
+      background-image: url('img/background.jpg');
+      width: 100%;
+      -webkit-filter: blur(5px);
+      -moz-filter: blur(5px);
+      -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+      filter: blur(5px);
+  } 
+  .content {
+      position: fixed;
+      left: 0;
+      right: 0;
+      z-index: 0;
   }
+
   </style>
 </head>
 <body>
+  <div class="content">
   <div class="container">
     <div class="row justify-content-center mb-2 mt-5">
       <div class="col-md-auto">
@@ -34,6 +50,7 @@
         <a href="https://itunes.apple.com/app/defence/id1447907940?mt=12"><img src="img/macappstore.svg" class="rounded"></a>
       </div>
     </div>
+  </div>
   </div>
 </body>
 </html>
