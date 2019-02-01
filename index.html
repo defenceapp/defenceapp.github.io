@@ -5,28 +5,25 @@
 <meta name="description" content="Safari Phishing Content Blocker">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <title>Defence</title>
-  
   <style>
-    .content:before {
-      content: "";
+  .content:before {
       position: fixed;
       left: 0;
       right: 0;
       z-index: -1;
-
+      height: 100%;
       display: block;
       background-image: url('img/background.jpg');
-      width: auto;
-      height: 100%;
+      width: 100%;
       filter: blur(5px);
-  } 
+      background-size: cover;
+  }
   .content {
       position: fixed;
       left: 0;
       right: 0;
       z-index: 0;
   }
-
   </style>
 </head>
 <body>
